@@ -63,7 +63,7 @@ nav{
     a{
         text-decoration: none;
         color: $text-color;
-        display: inline-block;
+        display: flex;
         padding: 1em 2em;
     }
 }
@@ -83,10 +83,12 @@ main{
 .sideleft{
     width: 30%;
     float: left;
+    display:flex;
 }
 .sideright{
     width: 60%;
     float: right;
+    display:flex;
 }
 .btn{
     background: $main-color;
@@ -103,6 +105,7 @@ main{
     padding: 2em;
     text-align: center;
     color: $text-color;
+    display: flex;
 }
 .box .fas{
     font-size: 2em;
